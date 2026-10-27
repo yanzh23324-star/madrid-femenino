@@ -2,6 +2,33 @@
   "news": {
     "items": [
       {
+        "title": "El Real Madrid se entrenó en Múnich",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-10-27",
+        "publishedAt": "2026-10-27T17:00:33.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/entrenamientos/entrenamiento-primer-equipo-femenino-27-10-2026"
+      },
+      {
+        "title": "Pau Quesada: \"Es la primera vez que nos enfrentamos y será un partido emocionante\"",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-10-27",
+        "publishedAt": "2026-10-27T16:00:13.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/ruedas-de-prensa/rueda-de-prensa-de-pau-quesada-y-jugadora-pre-bayern-de-munich-real-madrid-j3-wcl-27-10-2026"
+      },
+      {
+        "title": "Convocatoria del Real Madrid contra el Bayern de Múnich",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-10-27",
+        "publishedAt": "2026-10-27T14:43:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/convocatorias/convocatoria-del-real-madrid-contra-el-bayern-de-munich-27-10-2026"
+      },
+      {
         "title": "Schröder opta al premio a la mejor jugadora joven del Balón de Oro 2026",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-10-26",
@@ -51,9 +78,9 @@
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-los-partidos-contra-psg-paris-fc-e-inter-09-09-2026"
       }
     ],
-    "checkedAt": "2026-10-27T14:36:22.347214Z",
-    "attemptedAt": "2026-10-27T14:36:22.347214Z",
-    "revision": "249ebf54c50b1ecb",
+    "checkedAt": "2026-10-27T20:07:59.299153Z",
+    "attemptedAt": "2026-10-27T20:07:59.299153Z",
+    "revision": "6305fb73c106fb99",
     "error": null
   },
   "fixtures": {
