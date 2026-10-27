@@ -6,7 +6,7 @@
 
 [查看保留的静态版](https://yanzh23324-star.github.io/madrid-femenino/static.html) · [查看自动更新运行记录](https://github.com/yanzh23324-star/madrid-femenino/actions)
 
-这里是网站的源码仓库，成品网站地址为 **https://yanzh23324-star.github.io/madrid-femenino/**。建议收藏成品网址。
+这里是网站的源码仓库，成品网站地址为 [yanzh23324-star.github.io/madrid-femenino](https://yanzh23324-star.github.io/madrid-femenino/)。建议收藏成品网址。
 
 
 中文球迷专题，基于 GitHub Pages + GitHub Actions。无需服务器租用、数据库、付费 API、AI API key 或第三方翻译服务。
