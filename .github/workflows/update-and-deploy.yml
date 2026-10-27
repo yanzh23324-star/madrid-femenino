@@ -1,0 +1,85 @@
+name: 更新皇马女足资讯并发布网页
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 更新内容
+        type: choice
+        default: both
+        options: [both, news, fixtures]
+  schedule:
+    - cron: '17 * * * *'
+    - cron: '37 0 * * *'
+
+concurrency:
+  group: madrid-pages-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-and-deploy:
+    if: github.event.repository.private == false && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: 验证解析器与失败保护
+        run: python -m unittest discover -s tests -v
+      - name: 选择更新任务
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT" = schedule ] && [ "$SCHEDULE" = '37 0 * * *' ]; then
+            echo 'value=fixtures' >> "$GITHUB_OUTPUT"
+          elif [ "$EVENT" = schedule ]; then
+            echo 'value=news' >> "$GITHUB_OUTPUT"
+          elif [ "$EVENT" = workflow_dispatch ]; then
+            echo "value=$MANUAL_MODE" >> "$GITHUB_OUTPUT"
+          else
+            echo 'value=both' >> "$GITHUB_OUTPUT"
+          fi
+      - name: 读取官方公开页面
+        id: refresh
+        continue-on-error: true
+        env:
+          MODE: ${{ steps.mode.outputs.value }}
+        run: python scripts/update.py --mode "$MODE"
+      - name: 构建网页
+        run: python scripts/build.py
+      - name: 保存数据快照
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/feed.json site/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update official women team feed'
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: site
+          retention-days: 1
+      - name: 发布 GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v5.0.1
+      - name: 标记数据来源失败
+        if: steps.refresh.outcome == 'failure'
+        run: |
+          echo '官方来源未全部同步成功；网页已保留旧内容并展示失败状态。'
+          exit 1
