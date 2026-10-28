@@ -168,7 +168,7 @@
         "competition": "欧冠",
         "status": "scheduled",
         "score": null,
-        "venue": "Uhlsport Park",
+        "venue": "Stadion Am Sportpark",
         "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
@@ -342,9 +342,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-10-27T02:23:03.123060Z",
-    "attemptedAt": "2026-10-27T02:23:03.123060Z",
-    "revision": "0fa3e6f73737b5a2",
+    "checkedAt": "2026-10-28T06:14:58.176536Z",
+    "attemptedAt": "2026-10-28T06:14:58.176536Z",
+    "revision": "742ca0e11d7c5f0f",
     "error": null
   },
   "mode": "github",
