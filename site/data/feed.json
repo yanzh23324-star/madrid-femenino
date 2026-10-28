@@ -2,6 +2,15 @@
   "news": {
     "items": [
       {
+        "title": "Minuto de silencio antes del Bayern de Múnich-Real Madrid",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-10-28",
+        "publishedAt": "2026-10-28T12:59:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/minuto-de-silencio-antes-del-bayern-de-munich-real-madrid-28-10-2026"
+      },
+      {
         "title": "El Real Madrid se entrenó en Múnich",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-10-27",
@@ -87,9 +96,9 @@
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-los-partidos-contra-psg-paris-fc-e-inter-09-09-2026"
       }
     ],
-    "checkedAt": "2026-10-28T13:05:43.654008Z",
-    "attemptedAt": "2026-10-28T13:05:43.654008Z",
-    "revision": "1be91b7749bffc68",
+    "checkedAt": "2026-10-28T18:54:01.478657Z",
+    "attemptedAt": "2026-10-28T18:54:01.478657Z",
+    "revision": "e45640f2c0e38a69",
     "error": null
   },
   "fixtures": {
