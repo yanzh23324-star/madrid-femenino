@@ -105,8 +105,8 @@
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-los-partidos-contra-psg-paris-fc-e-inter-09-09-2026"
       }
     ],
-    "checkedAt": "2026-10-29T02:32:40.689066Z",
-    "attemptedAt": "2026-10-29T02:32:40.689066Z",
+    "checkedAt": "2026-10-29T03:13:18.515558Z",
+    "attemptedAt": "2026-10-29T03:13:18.515558Z",
     "revision": "979fab4360c07169",
     "error": null
   },
@@ -184,8 +184,8 @@
         "home": "拜仁慕尼黑",
         "away": "皇马",
         "competition": "欧冠",
-        "status": "scheduled",
-        "score": null,
+        "status": "finished",
+        "score": "2–2",
         "venue": "Stadion Am Sportpark",
         "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
@@ -258,7 +258,7 @@
       {
         "id": "2dcfml83i19qj4oxa83v95pn8",
         "date": "2026-11-22",
-        "kickoff": null,
+        "kickoff": "2026-11-22T11:00:00Z",
         "home": "格拉纳达",
         "away": "皇马",
         "competition": "Liga F",
@@ -360,9 +360,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-10-28T06:14:58.176536Z",
-    "attemptedAt": "2026-10-28T06:14:58.176536Z",
-    "revision": "742ca0e11d7c5f0f",
+    "checkedAt": "2026-10-29T03:13:18.515558Z",
+    "attemptedAt": "2026-10-29T03:13:18.515558Z",
+    "revision": "64353c24428ddd8a",
     "error": null
   },
   "mode": "github",
