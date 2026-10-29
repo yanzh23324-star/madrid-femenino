@@ -105,8 +105,11 @@ def merge_news(old,new):
     merged={n['url']:n for n in old}
     for n in new:
         previous=merged.get(n['url'],{})
-        # Human-written Chinese summaries, if present, remain available.
-        if previous.get('titleZh'): n={**n,'titleZh':previous['titleZh'],'summaryZh':previous.get('summaryZh','')}
+        # Editorial titles remain intact; a machine title belongs to one exact source title.
+        if previous.get('titleZh') and (not previous.get('translation') or previous['title']==n['title']):
+            n={**n,'titleZh':previous['titleZh']}
+            if previous.get('translation'): n['translation']=copy.deepcopy(previous['translation'])
+        if previous.get('summaryZh'): n={**n,'summaryZh':previous['summaryZh']}
         merged[n['url']]=n
     return sorted(merged.values(),key=lambda n:n.get('publishedAt',n['publishedDate']),reverse=True)[:30]
 

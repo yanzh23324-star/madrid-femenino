@@ -25,7 +25,7 @@ jobs:
   update-and-deploy:
     if: github.event.repository.private == false && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -60,6 +60,32 @@ jobs:
         env:
           MODE: ${{ steps.mode.outputs.value }}
         run: python scripts/update.py --mode "$MODE"
+      - name: 检查待翻译标题
+        id: translation-needed
+        run: |
+          echo "value=$(python scripts/translate.py --check)" >> "$GITHUB_OUTPUT"
+          echo "model=$(python scripts/translate.py --check-model)" >> "$GITHUB_OUTPUT"
+      - name: 恢复翻译模型缓存
+        if: steps.translation-needed.outputs.model == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: translation-nllb-f8d333a-${{ runner.os }}
+      - name: 安装免费离线翻译工具
+        id: translation-install
+        if: steps.translation-needed.outputs.model == 'true'
+        continue-on-error: true
+        run: |
+          python -m pip install --disable-pip-version-check --no-cache-dir torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check --no-cache-dir -r requirements-translation.txt
+      - name: 为新标题生成中文粗译
+        id: translate
+        if: steps.translation-needed.outputs.value == 'true'
+        continue-on-error: true
+        env:
+          HF_HUB_DISABLE_XET: '1'
+          HF_HUB_DOWNLOAD_TIMEOUT: '90'
+        run: python scripts/translate.py
       - name: 构建网页
         run: python scripts/build.py
       - name: 保存数据快照
@@ -79,7 +105,7 @@ jobs:
         id: deploy
         uses: actions/deploy-pages@v5.0.1
       - name: 标记数据来源失败
-        if: steps.refresh.outcome == 'failure'
+        if: steps.refresh.outcome == 'failure' || steps.translate.outcome == 'failure' || steps.translation-install.outcome == 'failure'
         run: |
-          echo '官方来源未全部同步成功；网页已保留旧内容并展示失败状态。'
+          echo '数据同步或标题翻译未全部成功；网页已保留可用数据，未翻译标题可阅读原文。'
           exit 1

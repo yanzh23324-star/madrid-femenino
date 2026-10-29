@@ -1,0 +1,5 @@
+# PyTorch CPU is installed separately from its official CPU wheel index by Actions.
+transformers==4.46.3
+sentencepiece==0.2.1
+huggingface-hub==0.36.2
+accelerate==1.10.1

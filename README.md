@@ -9,11 +9,11 @@
 这里是网站的源码仓库，成品网站地址为 [yanzh23324-star.github.io/madrid-femenino](https://yanzh23324-star.github.io/madrid-femenino/)。建议收藏成品网址。
 
 
-中文球迷专题，基于 GitHub Pages + GitHub Actions。无需服务器租用、数据库、付费 API、AI API key 或第三方翻译服务。
+中文球迷专题，基于 GitHub Pages + GitHub Actions。无需服务器租用、数据库、付费 API或 AI API key。
 
 ## 当前状态
 
-代码与工作流已完成，并通过 11 项解析/更新保护测试。部署和自动更新记录请查看本仓库 Actions；以最近一次成功运行与网页核验时间为准。
+代码与工作流已完成，并加入标题中文粗译与有来源的常用译名表，通过解析、缓存、译名与失败保护测试。部署和自动更新记录请查看本仓库 Actions；以最近一次成功运行与网页核验时间为准。
 
 - `site/index.html`：自动更新版。浏览器从相对路径 `data/feed.json` 读取数据，适合仓库子路径部署。
 - `site/static.html`：保留的原静态网页；不会被更新脚本修改。
@@ -39,7 +39,11 @@ GitHub Free 支持公开仓库的 Pages；标准 runner 在公开仓库免费。
 - 赛程/赛果：每天北京时间 **08:37**，读取女足主页与官方日历，按女足官方球队 ID 过滤，合并并保留最近 45 天、未来 120 天范围内可取得的记录。
 - GitHub 的 cron 使用 UTC，已配置为 `17 * * * *` 及 `37 0 * * *`。
 - GitHub 任务可能延迟或漏跑；不是严格整点，也不是比赛中实时比分。若长时间不活动，GitHub 可能停用定时任务，应检查 Actions。脚本每日/每小时提交最近核验时间，但不能保证平台永远不会停用任务。
-- 新新闻默认保留西班牙语标题与原文链接，不调用付费翻译。已有人工中文摘要保留；可以在数据中补充 `titleZh` / `summaryZh`，后续同步会保留。
+- 新新闻自动生成简体中文标题，保留西语原题和官方报道链接；不翻译或转载新闻全文。已有人工 `titleZh` / `summaryZh` 保留。
+- 标题翻译在 Actions 内离线执行：常见足球标题使用已核对的表达规则，其余使用 Meta 的 NLLB-200 distilled 600M，西语直接译成中文，不经英语中转。模型固定版本，不使用远程推理 API，不需要密钥。
+- 只有新增标题、原题改动或词表/翻译引擎版本改变时才重新翻译。无新标题时不安装模型依赖、不运行模型；命中足球表达规则时也无需下载模型。
+- 中文标题按原题绑定。官网更改标题时移除旧机器译文，等待重新翻译，避免用旧中文搭配新原文。数字、比分或姓名标记校验失败时保留原题并在下一次运行重试。
+- `data/translation-glossary.json` 保存可维护的常用译名表，包括别名、译写、类别、依据与官方参考网址；网页快报底部可展开查看。球员译写参考皇马官方中文商店；球队、赛事用语单独标注为本站统一用语，不冒称官方翻译。
 - 比赛队名采用中文映射；未知队名保留官方原名，避免猜测。
 - 官方已确认 UTC 开球时间直接转换为北京时间/马德里时间；待定时间不会从午夜占位值推算。
 - 比分仅在官网标记已结束且最终比分有效时写入。
@@ -64,11 +68,15 @@ GitHub Free 支持公开仓库的 Pages；标准 runner 在公开仓库免费。
 
 ## 本地运行与修改
 
-Python 3.9+（推荐 3.12），无需 pip 安装：
+Python 3.9+（推荐 3.12）；抓取、构建与单元测试只需标准库：
 
 ```sh
 python3 -m unittest discover -s tests -v
 python3 scripts/update.py --mode both
+# 可选：只有要运行模型翻译时才安装以下依赖（较大，请在虚拟环境中安装）
+# python3 -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+# python3 -m pip install -r requirements-translation.txt
+# python3 scripts/translate.py
 python3 scripts/build.py
 python3 -m http.server 8000 --directory site
 ```
@@ -83,3 +91,13 @@ python3 -m http.server 8000 --directory site
 
 - 官方女足主页：https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino
 - 官方日历：https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino
+
+## 中文粗译维护
+
+- `scripts/translate.py --check` 检查是否有待翻译标题；`--check-model` 检查其中是否有必须运行神经模型的标题；这两个命令都不导入模型、也不联网。
+- 执行 `python3 scripts/translate.py` 保存中文标题和 `translation` 来源记录；模型异常不会清空新闻、赛程或人工中文内容。部分失败仍保存成功译文，网页显示剩余待翻译数量，工作流在发布可用快照后报告失败。
+- 人工改写机器译文时，应删除该条的 `translation` 和 `translationError`，留下 `titleZh`。没有机器元数据的中文标题视为人工整理，后续更新不覆盖。
+- 更改词表后，下次更新自动重译机器标题；改用其他模型或更改表达规则时同时提升 `ENGINE` 版本。
+- 模型只下载到 Actions 的 Hugging Face 缓存，约 2.5 GB，不提交到仓库或网站。缓存仅使用一个固定模型版本的 key；不缓存 pip 包。保留标准公开仓库 runner，避免使用付费推理、larger runner 或额外付费缓存额度。
+- 模型来源：[Meta / facebook/nllb-200-distilled-600M](https://huggingface.co/facebook/nllb-200-distilled-600M)，固定 revision `f8d333a098d19b4fd9a8b18f94170487ad3f821d`。模型许可 CC BY-NC 4.0，本站为非商业球迷阅读辅助；模型并非足球专用，输出可能有误，不能当成官方中文报道。
+- 球员译名依据：[皇马官方中文商店女队导航](https://shop.realmadrid.com/zh-cn/index.html)，核对日期 2026-10-29。同一官方商店的不同页面存在译写差异，词表固定所采用的版本，未确认译写的姓名保留官方拉丁字母。

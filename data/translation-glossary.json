@@ -1,0 +1,472 @@
+{
+  "reviewedAt": "2026-10-29",
+  "note": "球员译写参考皇马官方中文商店当日导航。同一官方商店部分页面存在不同译法，本站选用此版本统一新闻粗译；非唯一标准译名。球队、赛事与足球术语为本站统一用语，单独标注。未确认中文译写的姓名保留拉丁字母。",
+  "sources": {
+    "shop": {
+      "label": "皇马官方中文商店 · 女队导航",
+      "url": "https://shop.realmadrid.com/zh-cn/index.html"
+    },
+    "roster": {
+      "label": "皇马官方女足阵容 · 原名核对",
+      "url": "https://www.realmadrid.com/en-US/football/womens-team/players"
+    }
+  },
+  "entries": [
+    {
+      "aliases": [
+        "Merle Frohms",
+        "Frohms"
+      ],
+      "zh": "弗罗姆斯",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Noemi Bejarano Beltrán",
+        "Noemí Bejarano Beltrán",
+        "Noe Bejarano",
+        "Noemi Bejarano",
+        "Noe"
+      ],
+      "zh": "诺埃",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Janou Levels",
+        "Levels"
+      ],
+      "zh": "莱韦尔斯",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Silvia Cristóbal",
+        "S. Cristóbal",
+        "S.Cristóbal"
+      ],
+      "zh": "S·克里斯托瓦尔",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Paula Comendador Prado",
+        "Paula Comendador",
+        "Pau Comendador",
+        "Pau C.",
+        "Pau C"
+      ],
+      "zh": "帕乌 C.",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Sandie Toletti",
+        "Toletti"
+      ],
+      "zh": "托莱蒂",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Lotte Keukelaar",
+        "Keukelaar"
+      ],
+      "zh": "科伊克拉尔",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Sara Däbritz",
+        "Däbritz",
+        "Dabritz"
+      ],
+      "zh": "德布里茨",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Signe Bruun",
+        "Bruun"
+      ],
+      "zh": "布伦",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Athenea del Castillo",
+        "Athenea"
+      ],
+      "zh": "阿特内亚",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Lineth Beerensteyn",
+        "Beerensteyn"
+      ],
+      "zh": "贝伦斯泰因",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Felicia Schröder",
+        "Schröder",
+        "Schroder"
+      ],
+      "zh": "施罗德",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Laia López",
+        "Laia"
+      ],
+      "zh": "莱娅",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "María Méndez",
+        "M. Méndez",
+        "M.Méndez"
+      ],
+      "zh": "M·门德斯",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Irune Dorado",
+        "Irune"
+      ],
+      "zh": "伊鲁内",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Filippa Angeldahl",
+        "Angeldahl"
+      ],
+      "zh": "安格尔达尔",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Andreia Jacinto",
+        "Andreia J.J.",
+        "Andreia J."
+      ],
+      "zh": "安德蕾娅 J.J.",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Linda Caicedo",
+        "Linda C.",
+        "Caicedo"
+      ],
+      "zh": "L·凯塞多",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Eva Navarro",
+        "E. Navarro"
+      ],
+      "zh": "E·纳瓦罗",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Elisa Senß",
+        "Elisa Senss",
+        "Elisa"
+      ],
+      "zh": "埃丽莎",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Sara Holmgaard",
+        "Holmgaard"
+      ],
+      "zh": "霍尔姆戈尔",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Bella Andersson",
+        "Andersson"
+      ],
+      "zh": "安德松",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Maëlle Lakrar",
+        "Lakrar"
+      ],
+      "zh": "拉克拉尔",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Arianna Caruso",
+        "Caruso"
+      ],
+      "zh": "卡鲁索",
+      "kind": "球员",
+      "basis": "官方中文商店",
+      "source": "shop"
+    },
+    {
+      "aliases": [
+        "Pau Quesada"
+      ],
+      "zh": "Pau Quesada",
+      "kind": "教练",
+      "basis": "保留官方原名",
+      "source": "roster"
+    },
+    {
+      "aliases": [
+        "Real Madrid Femenino",
+        "Real Madrid femenino",
+        "Real Madrid"
+      ],
+      "zh": "皇马",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Bayern de Múnich",
+        "Bayern Munich",
+        "Bayern München",
+        "Bayern"
+      ],
+      "zh": "拜仁慕尼黑",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Paris Saint-Germain",
+        "París Saint-Germain",
+        "PSG"
+      ],
+      "zh": "巴黎圣日耳曼",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "París FC",
+        "Paris FC"
+      ],
+      "zh": "巴黎 FC",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Internazionale",
+        "Inter"
+      ],
+      "zh": "国际米兰",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Manchester City"
+      ],
+      "zh": "曼城",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Barcelona"
+      ],
+      "zh": "巴塞罗那",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Atlético de Madrid",
+        "Atlético Madrid"
+      ],
+      "zh": "马德里竞技",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Real Sociedad"
+      ],
+      "zh": "皇家社会",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Athletic Club"
+      ],
+      "zh": "毕尔巴鄂竞技",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Espanyol"
+      ],
+      "zh": "西班牙人",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Sevilla"
+      ],
+      "zh": "塞维利亚",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Tenerife"
+      ],
+      "zh": "特内里费",
+      "kind": "球队",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Women's Champions League",
+        "UEFA Women's Champions League",
+        "Champions League femenina"
+      ],
+      "zh": "女足欧冠",
+      "kind": "赛事",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Liga F",
+        "Primera División Femenina"
+      ],
+      "zh": "西班牙女足甲级联赛",
+      "kind": "赛事",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Copa de la Reina"
+      ],
+      "zh": "王后杯",
+      "kind": "赛事",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Supercopa de España",
+        "Supercopa femenina"
+      ],
+      "zh": "西班牙超级杯",
+      "kind": "赛事",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Balón de Oro"
+      ],
+      "zh": "金球奖",
+      "kind": "奖项",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Jugadora Cinco Estrellas Mahou"
+      ],
+      "zh": "Mahou 五星最佳球员",
+      "kind": "奖项",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Estadio Alfredo Di Stéfano",
+        "Alfredo Di Stéfano",
+        "Di Stéfano"
+      ],
+      "zh": "迪斯蒂法诺",
+      "kind": "球场",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Santiago Bernabéu",
+        "Bernabéu"
+      ],
+      "zh": "伯纳乌",
+      "kind": "球场",
+      "basis": "本站统一用语"
+    },
+    {
+      "aliases": [
+        "Múnich",
+        "Munich"
+      ],
+      "zh": "慕尼黑",
+      "kind": "城市",
+      "basis": "本站统一用语"
+    }
+  ]
+}
