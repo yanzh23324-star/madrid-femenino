@@ -8,7 +8,16 @@
         "publishedAt": "2026-10-28T19:45:54.000Z",
         "source": "皇家马德里官网",
         "category": "比赛战报",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/cronica-bayern-de-munich-real-madrid-j3-wcl-28-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/cronica-bayern-de-munich-real-madrid-j3-wcl-28-10-2026",
+        "titleZh": "皇马在慕尼黑战平",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "El Real Madrid empata en Múnich",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "Minuto de silencio antes del Bayern de Múnich-Real Madrid",
@@ -17,7 +26,16 @@
         "publishedAt": "2026-10-28T12:59:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/minuto-de-silencio-antes-del-bayern-de-munich-real-madrid-28-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/minuto-de-silencio-antes-del-bayern-de-munich-real-madrid-28-10-2026",
+        "titleZh": "拜仁慕尼黑-皇马赛前默哀一分钟",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Minuto de silencio antes del Bayern de Múnich-Real Madrid",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "El Real Madrid se entrenó en Múnich",
@@ -26,7 +44,16 @@
         "publishedAt": "2026-10-27T17:00:33.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/entrenamientos/entrenamiento-primer-equipo-femenino-27-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/entrenamientos/entrenamiento-primer-equipo-femenino-27-10-2026",
+        "titleZh": "皇马在慕尼黑完成训练",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "El Real Madrid se entrenó en Múnich",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "Pau Quesada: \"Es la primera vez que nos enfrentamos y será un partido emocionante\"",
@@ -35,7 +62,16 @@
         "publishedAt": "2026-10-27T16:00:13.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/ruedas-de-prensa/rueda-de-prensa-de-pau-quesada-y-jugadora-pre-bayern-de-munich-real-madrid-j3-wcl-27-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/ruedas-de-prensa/rueda-de-prensa-de-pau-quesada-y-jugadora-pre-bayern-de-munich-real-madrid-j3-wcl-27-10-2026",
+        "titleZh": "Pau Quesada:\"这是我们第一次面对,这将是一场激动人心的比赛\"",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Pau Quesada: \"Es la primera vez que nos enfrentamos y será un partido emocionante\"",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "neural-model"
+        }
       },
       {
         "title": "Bayern de Múnich-Real Madrid: partidazo en la Women's Champions League",
@@ -44,7 +80,16 @@
         "publishedAt": "2026-10-27T14:58:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/bayern-de-munich-real-madrid-nuevo-reto-en-la-womens-champions-league-27-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/bayern-de-munich-real-madrid-nuevo-reto-en-la-womens-champions-league-27-10-2026",
+        "titleZh": "拜仁慕尼黑-皇马：女足欧冠焦点战",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Bayern de Múnich-Real Madrid: partidazo en la Women's Champions League",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "Convocatoria del Real Madrid contra el Bayern de Múnich",
@@ -53,7 +98,16 @@
         "publishedAt": "2026-10-27T14:43:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/convocatorias/convocatoria-del-real-madrid-contra-el-bayern-de-munich-27-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/convocatorias/convocatoria-del-real-madrid-contra-el-bayern-de-munich-27-10-2026",
+        "titleZh": "皇马对阵拜仁慕尼黑的比赛大名单",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Convocatoria del Real Madrid contra el Bayern de Múnich",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "Schröder opta al premio a la mejor jugadora joven del Balón de Oro 2026",
@@ -62,7 +116,16 @@
         "publishedAt": "2026-10-26T14:08:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/schroder-opta-al-premio-a-la-mejor-jugadora-joven-del-balon-de-oro-2026-08-09-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/schroder-opta-al-premio-a-la-mejor-jugadora-joven-del-balon-de-oro-2026-08-09-2026",
+        "titleZh": "施罗德角逐2026年金球奖最佳年轻女足球员奖",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Schröder opta al premio a la mejor jugadora joven del Balón de Oro 2026",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "Remontada en el Di Stéfano",
@@ -82,7 +145,16 @@
         "publishedAt": "2026-10-18T19:00:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/las-campeonas-del-mundial-sub-20-y-del-europeo-sub-19-ofrecieron-sus-titulos-al-bernabeu-18-10-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/las-campeonas-del-mundial-sub-20-y-del-europeo-sub-19-ofrecieron-sus-titulos-al-bernabeu-18-10-2026",
+        "titleZh": "伯纳乌向U20女足世界杯及U19女足欧锦赛冠军致敬",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "El Bernabéu homenajea a las campeonas del Mundial sub-20 y el Europeo sub-19",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       },
       {
         "title": "Schröder, Jugadora Cinco Estrellas Mahou de septiembre",
@@ -102,13 +174,27 @@
         "publishedAt": "2026-09-09T15:47:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-los-partidos-contra-psg-paris-fc-e-inter-09-09-2026"
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-los-partidos-contra-psg-paris-fc-e-inter-09-09-2026",
+        "titleZh": "对阵巴黎 FC、国际米兰的比赛门票现已开售",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Ya están disponibles las entradas para los partidos contra París FC e Inter",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-29T05:45:11.277621Z",
+          "method": "football-rule"
+        }
       }
     ],
-    "checkedAt": "2026-10-29T03:13:18.515558Z",
-    "attemptedAt": "2026-10-29T03:13:18.515558Z",
+    "checkedAt": "2026-10-29T05:44:47.554212Z",
+    "attemptedAt": "2026-10-29T05:44:47.554212Z",
     "revision": "979fab4360c07169",
-    "error": null
+    "error": null,
+    "translationStatus": {
+      "attemptedAt": "2026-10-29T05:45:11.277621Z",
+      "pending": 0,
+      "error": null
+    }
   },
   "fixtures": {
     "items": [
@@ -360,8 +446,8 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-10-29T03:13:18.515558Z",
-    "attemptedAt": "2026-10-29T03:13:18.515558Z",
+    "checkedAt": "2026-10-29T05:44:47.554212Z",
+    "attemptedAt": "2026-10-29T05:44:47.554212Z",
     "revision": "64353c24428ddd8a",
     "error": null
   },
