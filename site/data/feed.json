@@ -186,15 +186,10 @@
         }
       }
     ],
-    "checkedAt": "2026-10-29T05:44:47.554212Z",
-    "attemptedAt": "2026-10-29T05:44:47.554212Z",
-    "revision": "979fab4360c07169",
-    "error": null,
-    "translationStatus": {
-      "attemptedAt": "2026-10-29T05:45:11.277621Z",
-      "pending": 0,
-      "error": null
-    }
+    "checkedAt": "2026-10-29T10:07:08.157762Z",
+    "attemptedAt": "2026-10-29T10:07:08.157762Z",
+    "revision": "b276dea00729888a",
+    "error": null
   },
   "fixtures": {
     "items": [
