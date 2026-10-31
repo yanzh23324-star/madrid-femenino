@@ -2,6 +2,34 @@
   "news": {
     "items": [
       {
+        "title": "Convocatoria del Real Madrid contra el Sevilla",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-10-31",
+        "publishedAt": "2026-10-31T18:18:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/convocatorias/convocatoria-del-real-madrid-contra-el-sevilla-31-10-2026",
+        "titleZh": "皇马对阵塞维利亚的比赛大名单",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Convocatoria del Real Madrid contra el Sevilla",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-10-31T18:38:05.135761Z",
+          "method": "football-rule"
+        }
+      },
+      {
+        "title": "Sevilla-Real Madrid: el equipo busca arrancar el mes con victoria",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-10-31",
+        "publishedAt": "2026-10-31T11:07:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/sevilla-real-madrid-a-por-la-victoria-en-el-ultimo-partido-del-mes-31-10-2026",
+        "translationError": "译名标记未完整保留"
+      },
+      {
         "title": "El Real Madrid empata en Múnich",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-10-28",
@@ -186,10 +214,15 @@
         }
       }
     ],
-    "checkedAt": "2026-10-31T13:41:59.274959Z",
-    "attemptedAt": "2026-10-31T13:41:59.274959Z",
-    "revision": "b276dea00729888a",
-    "error": null
+    "checkedAt": "2026-10-31T18:37:12.130934Z",
+    "attemptedAt": "2026-10-31T18:37:12.130934Z",
+    "revision": "b43cb3aae14aa3ee",
+    "error": null,
+    "translationStatus": {
+      "attemptedAt": "2026-10-31T18:38:05.135761Z",
+      "pending": 1,
+      "error": "部分标题翻译失败，保留原题"
+    }
   },
   "fixtures": {
     "items": [
