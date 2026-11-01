@@ -2,6 +2,52 @@
   "news": {
     "items": [
       {
+        "title": "Athenea, 150 partidos de Liga con el Real Madrid",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-01",
+        "publishedAt": "2026-11-01T19:36:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/athenea-150-partidos-liga-01-11-2026",
+        "translationError": "译名标记未完整保留"
+      },
+      {
+        "title": "Minuto de silencio antes del Sevilla-Real Madrid",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-01",
+        "publishedAt": "2026-11-01T18:15:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/minuto-de-silencio-antes-del-sevilla-real-madrid-01-11-2026",
+        "titleZh": "塞维利亚-皇马赛前默哀一分钟",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Minuto de silencio antes del Sevilla-Real Madrid",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-01T21:14:33.243755Z",
+          "method": "football-rule"
+        }
+      },
+      {
+        "title": "Victoria a domicilio ante el Sevilla",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-01",
+        "publishedAt": "2026-11-01T10:54:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "比赛战报",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/cronica-sevilla-real-madrid-j9-liga-f-01-11-2026",
+        "titleZh": "在塞维利亚的家中取得胜利",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Victoria a domicilio ante el Sevilla",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-01T21:14:33.243755Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Once inicial del Real Madrid ante el Sevilla",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-01",
@@ -224,13 +270,13 @@
         }
       }
     ],
-    "checkedAt": "2026-11-01T17:09:57.713390Z",
-    "attemptedAt": "2026-11-01T17:09:57.713390Z",
-    "revision": "99e74fd9f0c3e261",
+    "checkedAt": "2026-11-01T21:13:44.054220Z",
+    "attemptedAt": "2026-11-01T21:13:44.054220Z",
+    "revision": "0b3dc3d33661578a",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-01T17:10:50.112591Z",
-      "pending": 2,
+      "attemptedAt": "2026-11-01T21:14:33.243755Z",
+      "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
   },
