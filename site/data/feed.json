@@ -2,6 +2,16 @@
   "news": {
     "items": [
       {
+        "title": "Once inicial del Real Madrid ante el Sevilla",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-01",
+        "publishedAt": "2026-11-01T10:52:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/once-inicial-del-real-madrid-ante-el-sevilla-01-11-2026",
+        "translationError": "标题中的数字未完整保留"
+      },
+      {
         "title": "Convocatoria del Real Madrid contra el Sevilla",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-10-31",
@@ -214,13 +224,13 @@
         }
       }
     ],
-    "checkedAt": "2026-11-01T10:35:51.691169Z",
-    "attemptedAt": "2026-11-01T10:35:51.691169Z",
-    "revision": "e93de830f75fb3b6",
+    "checkedAt": "2026-11-01T17:09:57.713390Z",
+    "attemptedAt": "2026-11-01T17:09:57.713390Z",
+    "revision": "99e74fd9f0c3e261",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-01T10:36:36.033204Z",
-      "pending": 1,
+      "attemptedAt": "2026-11-01T17:10:50.112591Z",
+      "pending": 2,
       "error": "部分标题翻译失败，保留原题"
     }
   },
