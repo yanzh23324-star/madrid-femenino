@@ -219,7 +219,7 @@
     "revision": "e93de830f75fb3b6",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-01T02:19:07.915787Z",
+      "attemptedAt": "2026-11-01T06:48:23.451841Z",
       "pending": 1,
       "error": "部分标题翻译失败，保留原题"
     }
@@ -249,7 +249,7 @@
         "status": "finished",
         "score": "1–1",
         "venue": "Joie Stadium",
-        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -301,7 +301,7 @@
         "status": "finished",
         "score": "2–2",
         "venue": "Stadion Am Sportpark",
-        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -327,7 +327,7 @@
         "status": "scheduled",
         "score": null,
         "venue": "Estadio Santa María de Lezama",
-        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -340,7 +340,7 @@
         "status": "scheduled",
         "score": null,
         "venue": "Estadio Alfredo Di Stéfano",
-        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -353,7 +353,7 @@
         "status": "scheduled",
         "score": null,
         "venue": "Estadio Alfredo Di Stéfano",
-        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -366,7 +366,7 @@
         "status": "scheduled",
         "score": null,
         "venue": "Estadio Alfredo Di Stéfano",
-        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -379,7 +379,7 @@
         "status": "scheduled",
         "score": null,
         "venue": "Ciudad Deportiva del Granada CF",
-        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
+        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
       {
@@ -474,9 +474,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-10-31T06:14:35.613195Z",
-    "attemptedAt": "2026-10-31T06:14:35.613195Z",
-    "revision": "64353c24428ddd8a",
+    "checkedAt": "2026-11-01T06:47:37.454924Z",
+    "attemptedAt": "2026-11-01T06:47:37.454924Z",
+    "revision": "5657f513cad44b14",
     "error": null
   },
   "mode": "github",
