@@ -275,7 +275,7 @@
     "revision": "86ee27ab424894b0",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-02T00:53:03.904753Z",
+      "attemptedAt": "2026-11-02T06:46:57.712311Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
@@ -367,8 +367,8 @@
         "home": "塞维利亚",
         "away": "皇马",
         "competition": "Liga F",
-        "status": "scheduled",
-        "score": null,
+        "status": "finished",
+        "score": "1–3",
         "venue": "Estadio Jesús Navas",
         "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
@@ -528,11 +528,24 @@
         "venue": "Estadio Alfredo Di Stéfano",
         "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
         "source": "皇家马德里官网"
+      },
+      {
+        "id": "2qol09klz2me5nxjs50liujv8",
+        "date": "2027-01-31",
+        "kickoff": null,
+        "home": "特内里费",
+        "away": "皇马",
+        "competition": "Liga F",
+        "status": "scheduled",
+        "score": null,
+        "venue": "Estadio Heliodoro Rodríguez López",
+        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
+        "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-01T06:47:37.454924Z",
-    "attemptedAt": "2026-11-01T06:47:37.454924Z",
-    "revision": "5657f513cad44b14",
+    "checkedAt": "2026-11-02T06:46:13.120564Z",
+    "attemptedAt": "2026-11-02T06:46:13.120564Z",
+    "revision": "b22c8c4060be9c5c",
     "error": null
   },
   "mode": "github",
