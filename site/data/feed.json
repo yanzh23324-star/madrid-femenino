@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "Athenea, candidata al FIFPRO World11 Femenino de 2026",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-02",
+        "publishedAt": "2026-11-02T16:06:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/athenea-mejor-once-fifpro-02-11-2026",
+        "titleZh": "2026年FIFPRO世界11女性候选人阿特内亚",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Athenea, candidata al FIFPRO World11 Femenino de 2026",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-02T18:30:29.845051Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Athenea, 150 partidos de Liga con el Real Madrid",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-01",
@@ -270,12 +288,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-02T07:44:08.515191Z",
-    "attemptedAt": "2026-11-02T07:44:08.515191Z",
-    "revision": "86ee27ab424894b0",
+    "checkedAt": "2026-11-02T18:29:43.311826Z",
+    "attemptedAt": "2026-11-02T18:29:43.311826Z",
+    "revision": "458a71240f55ac16",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-02T07:44:49.025563Z",
+      "attemptedAt": "2026-11-02T18:30:29.845051Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
