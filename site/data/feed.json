@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "El Real Madrid prepara la visita al Athletic Club",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-05",
+        "publishedAt": "2026-11-05T10:17:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/entrenamientos/el-real-madrid-prepara-el-partido-ante-el-athletic-club-05-11-2026",
+        "titleZh": "皇马为毕尔巴鄂竞技的访问做好准备",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "El Real Madrid prepara la visita al Athletic Club",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-05T18:48:59.193190Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Athenea, candidata al FIFPRO World11 Femenino de 2026",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-02",
@@ -288,12 +306,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-05T11:04:51.345955Z",
-    "attemptedAt": "2026-11-05T11:04:51.345955Z",
-    "revision": "dc81e2dbe9b1824f",
+    "checkedAt": "2026-11-05T18:48:12.579572Z",
+    "attemptedAt": "2026-11-05T18:48:12.579572Z",
+    "revision": "3f83c0d1ecddcbcc",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-05T11:05:44.599889Z",
+      "attemptedAt": "2026-11-05T18:48:59.193190Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
