@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "Athletic Club-Real Madrid: salida exigente en la Liga F",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-06",
+        "publishedAt": "2026-11-06T15:43:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/previa-athletic-club-real-madrid-j10-liga-f-06-11-2026",
+        "titleZh": "毕尔巴鄂竞技-皇马:在西班牙女足甲级联赛上要求的输出",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Athletic Club-Real Madrid: salida exigente en la Liga F",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-06T21:35:16.204097Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "El Real Madrid prepara la visita al Athletic Club",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-05",
@@ -306,12 +324,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-06T15:58:50.078166Z",
-    "attemptedAt": "2026-11-06T15:58:50.078166Z",
-    "revision": "5c18245763797047",
+    "checkedAt": "2026-11-06T21:34:23.967835Z",
+    "attemptedAt": "2026-11-06T21:34:23.967835Z",
+    "revision": "6f09c56f330c1e8b",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-06T15:59:39.759177Z",
+      "attemptedAt": "2026-11-06T21:35:16.204097Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
