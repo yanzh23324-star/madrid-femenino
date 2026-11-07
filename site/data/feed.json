@@ -329,26 +329,13 @@
     "revision": "0c5452e865aca0f3",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-07T01:59:39.976986Z",
+      "attemptedAt": "2026-11-07T06:34:36.570046Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
   },
   "fixtures": {
     "items": [
-      {
-        "id": "3ai599epgr9cogl4eezbvj0us",
-        "date": "2026-09-22",
-        "kickoff": "2026-09-22T19:00:00Z",
-        "home": "皇马",
-        "away": "巴黎圣日耳曼",
-        "competition": "欧冠",
-        "status": "finished",
-        "score": "1–1",
-        "venue": "Estadio Alfredo Di Stéfano",
-        "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
-        "source": "皇家马德里官网"
-      },
       {
         "id": "3ez37liu87d6z486c93qdkdg4",
         "date": "2026-10-01",
@@ -597,9 +584,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-06T07:21:13.813421Z",
-    "attemptedAt": "2026-11-06T07:21:13.813421Z",
-    "revision": "b22c8c4060be9c5c",
+    "checkedAt": "2026-11-07T06:33:43.617102Z",
+    "attemptedAt": "2026-11-07T06:33:43.617102Z",
+    "revision": "43a06b191e51963e",
     "error": null
   },
   "mode": "github",
