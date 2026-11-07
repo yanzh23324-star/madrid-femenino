@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "Empate en Lezama",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-07",
+        "publishedAt": "2026-11-07T08:13:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "比赛战报",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/cronica-athletic-club-real-madrid-07-11-2026",
+        "titleZh": "在莱萨马的竞赛",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Empate en Lezama",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-07T20:18:06.959646Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Athletic Club-Real Madrid: salida exigente en la Liga F",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-06",
@@ -324,12 +342,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-07T15:43:09.441945Z",
-    "attemptedAt": "2026-11-07T15:43:09.441945Z",
-    "revision": "0c5452e865aca0f3",
+    "checkedAt": "2026-11-07T20:17:17.768886Z",
+    "attemptedAt": "2026-11-07T20:17:17.768886Z",
+    "revision": "cde27927150c4a8c",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-07T15:44:08.421091Z",
+      "attemptedAt": "2026-11-07T20:18:06.959646Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
