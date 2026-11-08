@@ -347,7 +347,7 @@
     "revision": "7adb05af06f667d2",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-08T00:44:00.696142Z",
+      "attemptedAt": "2026-11-08T06:40:50.958783Z",
       "pending": 3,
       "error": "部分标题翻译失败，保留原题"
     }
@@ -439,8 +439,8 @@
         "home": "毕尔巴鄂竞技",
         "away": "皇马",
         "competition": "Liga F",
-        "status": "scheduled",
-        "score": null,
+        "status": "finished",
+        "score": "1–1",
         "venue": "Estadio Santa María de Lezama",
         "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
@@ -602,9 +602,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-07T06:33:43.617102Z",
-    "attemptedAt": "2026-11-07T06:33:43.617102Z",
-    "revision": "43a06b191e51963e",
+    "checkedAt": "2026-11-08T06:40:11.145776Z",
+    "attemptedAt": "2026-11-08T06:40:11.145776Z",
+    "revision": "fce0a48d9014fa0c",
     "error": null
   },
   "mode": "github",
