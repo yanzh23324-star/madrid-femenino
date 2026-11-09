@@ -2,6 +2,44 @@
   "news": {
     "items": [
       {
+        "title": "Último entrenamiento antes de recibir al París FC",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-09",
+        "publishedAt": "2026-11-09T16:36:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/entrenamientos/ultimo-entrenamiento-antes-de-recibir-al-paris-fc-09-11-2026",
+        "titleZh": "在接受巴黎 FC之前的最后一次训练",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Último entrenamiento antes de recibir al París FC",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-09T18:53:49.657476Z",
+          "method": "neural-model"
+        }
+      },
+      {
+        "title": "Schröder, premio Golden Girl 2026",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-09",
+        "publishedAt": "2026-11-09T15:00:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/schroder-premio-golden-girl-2026-09-11-2026",
+        "translationError": "译名标记未完整保留"
+      },
+      {
+        "title": "Pau Quesada: “Llegamos con muchas ganas ante un rival extremadamente competitivo\"",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-09",
+        "publishedAt": "2026-11-09T13:23:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/ruedas-de-prensa/pau-quesada-09-11-2026",
+        "translationError": "译名标记未完整保留"
+      },
+      {
         "title": "Empate en Lezama",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-07",
@@ -342,13 +380,13 @@
         }
       }
     ],
-    "checkedAt": "2026-11-09T08:03:49.730590Z",
-    "attemptedAt": "2026-11-09T08:03:49.730590Z",
-    "revision": "7adb05af06f667d2",
+    "checkedAt": "2026-11-09T18:52:56.182627Z",
+    "attemptedAt": "2026-11-09T18:52:56.182627Z",
+    "revision": "e89283eb3623c21e",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-09T08:04:46.908737Z",
-      "pending": 3,
+      "attemptedAt": "2026-11-09T18:53:49.657476Z",
+      "pending": 5,
       "error": "部分标题翻译失败，保留原题"
     }
   },
