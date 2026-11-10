@@ -362,30 +362,30 @@
         "summaryZh": "俱乐部公布九月球员奖项。"
       },
       {
-        "title": "Ya están disponibles las entradas para los partidos contra París FC e Inter",
+        "title": "Ya están disponibles las entradas para el partido contra el Inter",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-09-09",
         "publishedAt": "2026-09-09T15:47:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-los-partidos-contra-psg-paris-fc-e-inter-09-09-2026",
-        "titleZh": "对阵巴黎 FC、国际米兰的比赛门票现已开售",
+        "titleZh": "现已提供对阵国际米兰比赛的门票",
         "translation": {
           "kind": "machine",
           "engine": "nllb-es-zh-football-v1",
-          "sourceTitle": "Ya están disponibles las entradas para los partidos contra París FC e Inter",
+          "sourceTitle": "Ya están disponibles las entradas para el partido contra el Inter",
           "glossaryRevision": "2b5477aa62756a42",
-          "translatedAt": "2026-10-29T05:45:11.277621Z",
-          "method": "football-rule"
+          "translatedAt": "2026-11-10T17:56:06.334353Z",
+          "method": "neural-model"
         }
       }
     ],
-    "checkedAt": "2026-11-10T09:58:22.582227Z",
-    "attemptedAt": "2026-11-10T09:58:22.582227Z",
-    "revision": "faf94638fabd9244",
+    "checkedAt": "2026-11-10T17:55:11.782942Z",
+    "attemptedAt": "2026-11-10T17:55:11.782942Z",
+    "revision": "a599a68712990796",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-10T09:59:08.892537Z",
+      "attemptedAt": "2026-11-10T17:56:06.334353Z",
       "pending": 5,
       "error": "部分标题翻译失败，保留原题"
     }
