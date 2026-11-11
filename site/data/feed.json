@@ -421,7 +421,7 @@
     "revision": "b91bcc57b3bcb233",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-11T06:37:56.531087Z",
+      "attemptedAt": "2026-11-11T07:04:22.918490Z",
       "pending": 5,
       "error": "部分标题翻译失败，保留原题"
     }
@@ -526,8 +526,8 @@
         "home": "皇马",
         "away": "巴黎 FC",
         "competition": "欧冠",
-        "status": "scheduled",
-        "score": null,
+        "status": "finished",
+        "score": "3–0",
         "venue": "Estadio Alfredo Di Stéfano",
         "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
@@ -573,8 +573,8 @@
       },
       {
         "id": "2g2r67fumwkajfwb65p6kltsk",
-        "date": "2026-12-09",
-        "kickoff": null,
+        "date": "2026-12-08",
+        "kickoff": "2026-12-08T18:00:00Z",
         "home": "皇马",
         "away": "Madrid CFF",
         "competition": "Liga F",
@@ -689,9 +689,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-10T07:42:44.799753Z",
-    "attemptedAt": "2026-11-10T07:42:44.799753Z",
-    "revision": "f8946cd08cb64433",
+    "checkedAt": "2026-11-11T07:03:35.590727Z",
+    "attemptedAt": "2026-11-11T07:03:35.590727Z",
+    "revision": "1fd26b59d3368304",
     "error": null
   },
   "mode": "github",
