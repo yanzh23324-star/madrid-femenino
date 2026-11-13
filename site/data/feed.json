@@ -4,8 +4,8 @@
       {
         "title": "Real Madrid-Badalona: a prolongar la racha en el Di Stéfano",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
-        "publishedDate": "2026-11-13",
-        "publishedAt": "2026-11-13T20:12:00.000Z",
+        "publishedDate": "2026-11-14",
+        "publishedAt": "2026-11-14T20:12:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/real-madrid-badalona-a-prolongar-la-racha-en-el-di-stefano-13-11-2026",
@@ -444,12 +444,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-13T17:49:18.759838Z",
-    "attemptedAt": "2026-11-13T17:49:18.759838Z",
-    "revision": "57ee75b2d8c33ada",
+    "checkedAt": "2026-11-13T23:38:26.746501Z",
+    "attemptedAt": "2026-11-13T23:38:26.746501Z",
+    "revision": "7e1e958bb1b8ad7d",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-13T17:50:04.981685Z",
+      "attemptedAt": "2026-11-13T23:39:11.853891Z",
       "pending": 6,
       "error": "部分标题翻译失败，保留原题"
     }
