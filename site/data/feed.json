@@ -426,12 +426,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-12T20:53:09.496618Z",
-    "attemptedAt": "2026-11-12T20:53:09.496618Z",
+    "checkedAt": "2026-11-13T01:53:44.277647Z",
+    "attemptedAt": "2026-11-13T01:53:44.277647Z",
     "revision": "2cd02a71db884765",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-12T20:53:46.427699Z",
+      "attemptedAt": "2026-11-13T01:54:34.027400Z",
       "pending": 6,
       "error": "部分标题翻译失败，保留原题"
     }
