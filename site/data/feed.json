@@ -20,6 +20,24 @@
         }
       },
       {
+        "title": "Convocatoria del Real Madrid contra el Badalona",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-14",
+        "publishedAt": "2026-11-14T10:00:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/convocatorias/convocatoria-del-real-madrid-contra-el-badalona-14-11-2026",
+        "titleZh": "皇马对阵Badalona的比赛大名单",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Convocatoria del Real Madrid contra el Badalona",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-14T14:15:02.801511Z",
+          "method": "football-rule"
+        }
+      },
+      {
         "title": "Athenea, Jugadora Cinco Estrellas Mahou de octubre",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-12",
@@ -444,12 +462,12 @@
         }
       }
     ],
-    "checkedAt": "2026-11-14T06:36:09.625153Z",
-    "attemptedAt": "2026-11-14T06:36:09.625153Z",
-    "revision": "7e1e958bb1b8ad7d",
+    "checkedAt": "2026-11-14T14:14:22.919745Z",
+    "attemptedAt": "2026-11-14T14:14:22.919745Z",
+    "revision": "e58397f01f1ccc2f",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-14T06:59:28.221891Z",
+      "attemptedAt": "2026-11-14T14:15:02.801511Z",
       "pending": 6,
       "error": "部分标题翻译失败，保留原题"
     }
