@@ -491,7 +491,7 @@
     "revision": "c6b7cfd30a231c89",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-18T04:29:39.510956Z",
+      "attemptedAt": "2026-11-18T07:55:43.793894Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
@@ -759,8 +759,8 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-17T08:26:57.099851Z",
-    "attemptedAt": "2026-11-17T08:26:57.099851Z",
+    "checkedAt": "2026-11-18T07:55:06.411638Z",
+    "attemptedAt": "2026-11-18T07:55:06.411638Z",
     "revision": "cfc9888f0b84f155",
     "error": null
   },
