@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "Segunda victoria consecutiva en la Women's Champions League",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-18",
+        "publishedAt": "2026-11-18T16:29:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "比赛战报",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/real-madrid-inter-de-milan-18-11-2026",
+        "titleZh": "在女足欧冠中连续第二次胜利",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Segunda victoria consecutiva en la Women's Champions League",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-18T22:04:18.688926Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Real Madrid-Inter: a sumar el segundo triunfo seguido en la Women's Champions League",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-17",
@@ -466,32 +484,14 @@
           "translatedAt": "2026-10-29T05:45:11.277621Z",
           "method": "football-rule"
         }
-      },
-      {
-        "title": "Schröder opta al premio a la mejor jugadora joven del Balón de Oro 2026",
-        "summary": "西班牙语原文 · 阅读官方报道 ↗",
-        "publishedDate": "2026-10-26",
-        "publishedAt": "2026-10-26T14:08:00.000Z",
-        "source": "皇家马德里官网",
-        "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/schroder-opta-al-premio-a-la-mejor-jugadora-joven-del-balon-de-oro-2026-08-09-2026",
-        "titleZh": "施罗德角逐2026年金球奖最佳年轻女足球员奖",
-        "translation": {
-          "kind": "machine",
-          "engine": "nllb-es-zh-football-v1",
-          "sourceTitle": "Schröder opta al premio a la mejor jugadora joven del Balón de Oro 2026",
-          "glossaryRevision": "2b5477aa62756a42",
-          "translatedAt": "2026-10-29T05:45:11.277621Z",
-          "method": "football-rule"
-        }
       }
     ],
-    "checkedAt": "2026-11-18T14:10:13.649251Z",
-    "attemptedAt": "2026-11-18T14:10:13.649251Z",
-    "revision": "c6b7cfd30a231c89",
+    "checkedAt": "2026-11-18T22:03:39.559161Z",
+    "attemptedAt": "2026-11-18T22:03:39.559161Z",
+    "revision": "85ffcb03f997033f",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-18T14:10:58.765290Z",
+      "attemptedAt": "2026-11-18T22:04:18.688926Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
