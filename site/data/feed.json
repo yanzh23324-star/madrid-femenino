@@ -491,26 +491,13 @@
     "revision": "f7c1578c3bfbc9c6",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-19T03:37:54.322759Z",
+      "attemptedAt": "2026-11-19T07:54:19.834346Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
   },
   "fixtures": {
     "items": [
-      {
-        "id": "1y8hrsbwqkyz6yhvcckqoul1w",
-        "date": "2026-10-04",
-        "kickoff": "2026-10-04T17:00:00Z",
-        "home": "巴塞罗那",
-        "away": "皇马",
-        "competition": "Liga F",
-        "status": "finished",
-        "score": "7–0",
-        "venue": "Spotify Camp Nou",
-        "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
-        "source": "皇家马德里官网"
-      },
       {
         "id": "21ka48let6ft2boq8mqa08ro4",
         "date": "2026-10-17",
@@ -609,8 +596,8 @@
         "home": "皇马",
         "away": "国际米兰",
         "competition": "欧冠",
-        "status": "scheduled",
-        "score": null,
+        "status": "finished",
+        "score": "3–1",
         "venue": "Estadio Alfredo Di Stéfano",
         "url": "https://www.realmadrid.com/es-ES/calendario?filter-football=primer-equipo-femenino",
         "source": "皇家马德里官网"
@@ -759,9 +746,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-18T07:55:06.411638Z",
-    "attemptedAt": "2026-11-18T07:55:06.411638Z",
-    "revision": "cfc9888f0b84f155",
+    "checkedAt": "2026-11-19T07:53:27.709879Z",
+    "attemptedAt": "2026-11-19T07:53:27.709879Z",
+    "revision": "9cc92fd7ab1f9473",
     "error": null
   },
   "mode": "github",
