@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "El Real Madrid prepara el partido contra el Granada",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-20",
+        "publishedAt": "2026-11-20T16:54:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/entrenamientos/el-real-madrid-prepara-el-partido-contra-el-granada-de-liga-20-11-2026",
+        "titleZh": "皇马准备对阵格拉纳达的比赛",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "El Real Madrid prepara el partido contra el Granada",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-20T21:14:22.657259Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Segunda victoria consecutiva en la Women's Champions League",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-18",
@@ -466,32 +484,14 @@
           "translatedAt": "2026-10-29T05:45:11.277621Z",
           "method": "football-rule"
         }
-      },
-      {
-        "title": "Convocatoria del Real Madrid contra el Bayern de Múnich",
-        "summary": "西班牙语原文 · 阅读官方报道 ↗",
-        "publishedDate": "2026-10-27",
-        "publishedAt": "2026-10-27T14:43:00.000Z",
-        "source": "皇家马德里官网",
-        "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/convocatorias/convocatoria-del-real-madrid-contra-el-bayern-de-munich-27-10-2026",
-        "titleZh": "皇马对阵拜仁慕尼黑的比赛大名单",
-        "translation": {
-          "kind": "machine",
-          "engine": "nllb-es-zh-football-v1",
-          "sourceTitle": "Convocatoria del Real Madrid contra el Bayern de Múnich",
-          "glossaryRevision": "2b5477aa62756a42",
-          "translatedAt": "2026-10-29T05:45:11.277621Z",
-          "method": "football-rule"
-        }
       }
     ],
-    "checkedAt": "2026-11-20T13:02:21.227769Z",
-    "attemptedAt": "2026-11-20T13:02:21.227769Z",
-    "revision": "f7c1578c3bfbc9c6",
+    "checkedAt": "2026-11-20T21:13:40.809980Z",
+    "attemptedAt": "2026-11-20T21:13:40.809980Z",
+    "revision": "e5a036b6fba644ac",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-20T13:03:10.601299Z",
+      "attemptedAt": "2026-11-20T21:14:22.657259Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
