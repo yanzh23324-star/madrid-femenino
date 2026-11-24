@@ -2,6 +2,24 @@
   "news": {
     "items": [
       {
+        "title": "Ya están disponibles las entradas para el partido contra el Madrid CFF",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-24",
+        "publishedAt": "2026-11-24T15:17:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/ya-estan-disponibles-las-entradas-para-el-partido-contra-el-madrid-cff-24-11-2026",
+        "titleZh": "马德里CFF对阵比赛的门票已经出售",
+        "translation": {
+          "kind": "machine",
+          "engine": "nllb-es-zh-football-v1",
+          "sourceTitle": "Ya están disponibles las entradas para el partido contra el Madrid CFF",
+          "glossaryRevision": "2b5477aa62756a42",
+          "translatedAt": "2026-11-24T11:04:24.892515Z",
+          "method": "neural-model"
+        }
+      },
+      {
         "title": "Minuto de silencio antes del Granada-Real Madrid",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-22",
@@ -466,32 +484,14 @@
         "category": "官方动态",
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/previas/sevilla-real-madrid-a-por-la-victoria-en-el-ultimo-partido-del-mes-31-10-2026",
         "translationError": "译名标记未完整保留"
-      },
-      {
-        "title": "El Real Madrid empata en Múnich",
-        "summary": "西班牙语原文 · 阅读官方报道 ↗",
-        "publishedDate": "2026-10-28",
-        "publishedAt": "2026-10-28T19:45:54.000Z",
-        "source": "皇家马德里官网",
-        "category": "比赛战报",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/cronicas/cronica-bayern-de-munich-real-madrid-j3-wcl-28-10-2026",
-        "titleZh": "皇马在慕尼黑战平",
-        "translation": {
-          "kind": "machine",
-          "engine": "nllb-es-zh-football-v1",
-          "sourceTitle": "El Real Madrid empata en Múnich",
-          "glossaryRevision": "2b5477aa62756a42",
-          "translatedAt": "2026-10-29T05:45:11.277621Z",
-          "method": "football-rule"
-        }
       }
     ],
-    "checkedAt": "2026-11-24T00:59:06.562301Z",
-    "attemptedAt": "2026-11-24T00:59:06.562301Z",
-    "revision": "bb37dc77574cc0c0",
+    "checkedAt": "2026-11-24T11:03:31.353224Z",
+    "attemptedAt": "2026-11-24T11:03:31.353224Z",
+    "revision": "152405e1dc0e7abc",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-24T10:23:33.259709Z",
+      "attemptedAt": "2026-11-24T11:04:24.892515Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
