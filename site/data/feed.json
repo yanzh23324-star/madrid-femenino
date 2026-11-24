@@ -486,12 +486,12 @@
         "translationError": "译名标记未完整保留"
       }
     ],
-    "checkedAt": "2026-11-24T11:03:31.353224Z",
-    "attemptedAt": "2026-11-24T11:03:31.353224Z",
-    "revision": "152405e1dc0e7abc",
+    "checkedAt": "2026-11-24T21:20:04.758384Z",
+    "attemptedAt": "2026-11-24T21:20:04.758384Z",
+    "revision": "fc67e604554bd166",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-24T11:04:24.892515Z",
+      "attemptedAt": "2026-11-24T21:21:00.406309Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
