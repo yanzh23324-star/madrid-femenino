@@ -12,20 +12,20 @@
         "translationError": "标题中的数字未完整保留"
       },
       {
-        "title": "Horarios de las madridistas convocadas con sus selecciones",
+        "title": "Horarios y resultados de las madridistas convocadas con sus selecciones",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
         "publishedDate": "2026-11-26",
         "publishedAt": "2026-11-26T08:36:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/horarios-de-las-madridistas-convocadas-con-sus-selecciones-26-11-2026",
-        "titleZh": "召开的马德里队队员的时间表",
+        "titleZh": "马德里队召开的比赛时间表和结果",
         "translation": {
           "kind": "machine",
           "engine": "nllb-es-zh-football-v1",
-          "sourceTitle": "Horarios de las madridistas convocadas con sus selecciones",
+          "sourceTitle": "Horarios y resultados de las madridistas convocadas con sus selecciones",
           "glossaryRevision": "2b5477aa62756a42",
-          "translatedAt": "2026-11-26T19:42:43.814722Z",
+          "translatedAt": "2026-11-27T22:04:13.173022Z",
           "method": "neural-model"
         }
       },
@@ -486,12 +486,12 @@
         "translationError": "标题中的数字未完整保留"
       }
     ],
-    "checkedAt": "2026-11-27T12:38:10.546686Z",
-    "attemptedAt": "2026-11-27T12:38:10.546686Z",
-    "revision": "face29da9870a99b",
+    "checkedAt": "2026-11-27T22:03:26.092756Z",
+    "attemptedAt": "2026-11-27T22:03:26.092756Z",
+    "revision": "4ea3d23004937b4c",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-27T12:38:54.706877Z",
+      "attemptedAt": "2026-11-27T22:04:13.173022Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
