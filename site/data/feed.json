@@ -486,12 +486,12 @@
         "translationError": "标题中的数字未完整保留"
       }
     ],
-    "checkedAt": "2026-11-27T02:55:15.019482Z",
-    "attemptedAt": "2026-11-27T02:55:15.019482Z",
+    "checkedAt": "2026-11-27T12:38:10.546686Z",
+    "attemptedAt": "2026-11-27T12:38:10.546686Z",
     "revision": "face29da9870a99b",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-27T09:02:22.958833Z",
+      "attemptedAt": "2026-11-27T12:38:54.706877Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
