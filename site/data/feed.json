@@ -491,7 +491,7 @@
     "revision": "517683d4b2e0a5b8",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-28T03:58:41.271150Z",
+      "attemptedAt": "2026-11-28T08:24:37.875432Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
@@ -663,7 +663,7 @@
         "competition": "王后杯",
         "status": "scheduled",
         "score": null,
-        "venue": "Estadio Municipal Aceró",
+        "venue": "Estadio Municipal Aceró (La Palma)",
         "url": "https://www.realmadrid.com/es-ES/futbol/primer-equipo-femenino",
         "source": "皇家马德里官网"
       },
@@ -772,9 +772,9 @@
         "source": "皇家马德里官网"
       }
     ],
-    "checkedAt": "2026-11-27T09:01:33.775633Z",
-    "attemptedAt": "2026-11-27T09:01:33.775633Z",
-    "revision": "095f8c6133a2e2db",
+    "checkedAt": "2026-11-28T08:23:53.794857Z",
+    "attemptedAt": "2026-11-28T08:23:53.794857Z",
+    "revision": "8f3cdf969fb28650",
     "error": null
   },
   "mode": "github",
