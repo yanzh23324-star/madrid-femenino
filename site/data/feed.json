@@ -2,20 +2,10 @@
   "news": {
     "items": [
       {
-        "title": "Argual-Real Madrid en los octavos de final de la Copa de la Reina",
-        "summary": "西班牙语原文 · 阅读官方报道 ↗",
-        "publishedDate": "2026-11-26",
-        "publishedAt": "2026-11-26T15:44:00.000Z",
-        "source": "皇家马德里官网",
-        "category": "官方动态",
-        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/argual-real-madrid-en-los-octavos-de-final-de-la-copa-de-la-reina-26-11-2026",
-        "translationError": "标题中的数字未完整保留"
-      },
-      {
         "title": "Horarios y resultados de las madridistas convocadas con sus selecciones",
         "summary": "西班牙语原文 · 阅读官方报道 ↗",
-        "publishedDate": "2026-11-26",
-        "publishedAt": "2026-11-26T08:36:00.000Z",
+        "publishedDate": "2026-11-28",
+        "publishedAt": "2026-11-28T08:36:00.000Z",
         "source": "皇家马德里官网",
         "category": "官方动态",
         "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/horarios-de-las-madridistas-convocadas-con-sus-selecciones-26-11-2026",
@@ -28,6 +18,16 @@
           "translatedAt": "2026-11-27T22:04:13.173022Z",
           "method": "neural-model"
         }
+      },
+      {
+        "title": "Argual-Real Madrid en los octavos de final de la Copa de la Reina",
+        "summary": "西班牙语原文 · 阅读官方报道 ↗",
+        "publishedDate": "2026-11-26",
+        "publishedAt": "2026-11-26T15:44:00.000Z",
+        "source": "皇家马德里官网",
+        "category": "官方动态",
+        "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo-femenino/actualidad/argual-real-madrid-en-los-octavos-de-final-de-la-copa-de-la-reina-26-11-2026",
+        "translationError": "标题中的数字未完整保留"
       },
       {
         "title": "Ya están disponibles las entradas para el partido contra el Madrid CFF",
@@ -486,12 +486,12 @@
         "translationError": "标题中的数字未完整保留"
       }
     ],
-    "checkedAt": "2026-11-28T03:57:49.995214Z",
-    "attemptedAt": "2026-11-28T03:57:49.995214Z",
-    "revision": "517683d4b2e0a5b8",
+    "checkedAt": "2026-11-28T13:09:49.514965Z",
+    "attemptedAt": "2026-11-28T13:09:49.514965Z",
+    "revision": "28d5e19d20b8fc71",
     "error": null,
     "translationStatus": {
-      "attemptedAt": "2026-11-28T08:24:37.875432Z",
+      "attemptedAt": "2026-11-28T13:10:38.982724Z",
       "pending": 7,
       "error": "部分标题翻译失败，保留原题"
     }
